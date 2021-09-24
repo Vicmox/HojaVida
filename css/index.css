@@ -1,0 +1,106 @@
+head {
+	
+}
+
+body{
+height: 880px;
+}
+
+nav {
+	background-color:black;
+	padding: 2px;
+}
+
+nav a{
+text-decoration: none;
+color: white;
+}
+
+nav li {
+	background-color: black;
+	padding: 10px 10px;
+	display: inline-block;
+}
+
+nav a:hover {
+	background-color: gray;
+}
+
+p {
+	width: 600px;
+
+}
+
+.card {
+	padding-left: 10px ;
+	position: relative;
+	height: 700px;
+	width: 1000px;
+
+}
+
+.perfil {
+	position: absolute;
+	width: 250px;
+	height: 320px;
+	left: 40px;
+	top: 10px;
+}
+
+.cuadrado{
+	position: absolute;
+	width: 251px;
+	height: 420px;
+	left: 40px;
+	top: 330px;
+	background-color: black;
+	color: white;
+}
+
+.cuadrado h2 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+.cuadrado a{
+	text-decoration: none;
+	color: white;
+}
+
+.cuadrado p {
+	width: 245px;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.intro{
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	left: 400px;
+}
+
+
+@media screen and (max-width: 800px) {
+#perfil {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	left: 900px;
+	top: 0px;
+	}
+}
+
+table {
+   width: 800px;
+   border: 1px solid #000;
+   top:80px;
+   left: 50px;
+}
+tr, td {
+   width: 30px;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-spacing: 0;
+}
